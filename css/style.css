@@ -6,6 +6,10 @@
 .tree ul {
     padding-top: 20px;
     position: relative;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
 }
 
 .tree li {
@@ -15,7 +19,7 @@
     position: relative;
     padding: 20px 5px 0 5px;
 
-    -transition: all 0.5s;
+    transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
 }
@@ -70,6 +74,8 @@
 .tree ul ul::before {
     content: '';
     position: absolute;
+    top: 0;
+    left: 50%;
     border-left: 1px solid #ccc;
     width: 0;
     height: 20px;
