@@ -1,11 +1,14 @@
 # CSS3 Family Tree
-CodePlayer CSS3 Family Tree project. Made with HTML & CSS.
+Family tree that shows connections between family members
+
+## Tech Stack
+- HTML
+- CSS 
 
 ## Instructions
-Clone this repo or download the zip file. Open index.html in your browser.
-
-## Contributions
-This code is based on starter code from TheCodePlayer.com. Therefore I will not be accepting pull requests.
+1. Clone this repo or download the zip file. 
+2. Open index.html in your browser.
+3. The family tree will be on the left side. Hover over different family members to see all the connections. These connections will be in blue.
 
 ## Acknowledgements
 * TheCodePlayer.com
